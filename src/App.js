@@ -1,25 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+
+import TopNav from "./components/TopNav/TopNav";
+import Navbar from "./components/Navbar/Navbar";
+import About from "./components/About/About";
+import MainPicture from "./components/MainPicture/MainPicture";
+import Social from "./components/Social/Social";
+import ButtonPrimary from "./components/ButtonPrimary/ButtonPrimary";
+import Gap from "./components/Gap/Gap";
+
+import "./App.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <TopNav />
+      <div className="container">
+        <Navbar />
+
+        <main className="content">
+          <About />
+
+          <Gap space="10" />
+
+          <div className="container2">
+            <MainPicture />
+            <ButtonPrimary text="hire me" />
+          </div>
+        </main>
+
+        <Social />
+      </div>
+    </Fragment>
   );
 }
 

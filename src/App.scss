@@ -91,13 +91,8 @@ li {
     margin-top: 35px;
     padding: 3px 3px;
     color: black;
-  }
-
-  a:hover {
     text-decoration: none;
-    background-color: #03e691;
-    padding: 3px 3px;
-    color: white;
+    border: none;
   }
 }
 
@@ -166,7 +161,7 @@ li {
   background: linear-gradient(
     0deg,
     rgba(4, 231, 148, 0.5) 45%,
-    rgba(255, 255, 255, 0.7497373949579832) 9%
+    rgba(255, 255, 255, 0) 9%
   );
 }
 
@@ -175,7 +170,7 @@ li {
   background: linear-gradient(
     0deg,
     rgba(4, 231, 148, 0.8) 45%,
-    rgba(255, 255, 255, 0.7497373949579832) 9%
+    rgba(255, 255, 255, 0) 9%
   );
 }
 

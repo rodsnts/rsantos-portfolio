@@ -7,9 +7,9 @@
   "about": {
     "me": "Hi my name is Rodrigo. I'm a Software Developer with a strong sense for aesthetics and interaction. I love working with creative individuals that can bring strong critique as well as laugh at latest meme."
   },
-  "experience": {
-    "present": "2016 to present PayPay inc.",
-    "presentInfo": "Sr. User experience designer, Foundations."
+  "education": {
+    "school": "Front End - Nanodegree, Udacity",
+    "info": "Learning how to build high quality websites and dynamic applications to create stunning user experiences for the web."
   },
   "projects": {
     "info": "Helping translate web dev tools into my source language (Portuguese)."

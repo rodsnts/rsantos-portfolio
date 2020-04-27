@@ -1,14 +1,27 @@
+// ====================== VARIABLES ====================== //
+
+$green-primary-light: #04e794;
+$green-primary-dark: #01a569;
+
+$neutral-black: #000000;
+$neutral-black-transparent: rgba(0, 0, 0, 0.77);
+
+$neutral-white: #ffffff;
+
+// ======================================================= //
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   font-size: 13px;
   overflow: hidden;
+  color: $neutral-black;
 }
 
 ::selection {
-  background-color: #03e691;
-  color: white;
+  background-color: $green-primary-light;
+  color: $neutral-white;
 }
 
 ul {
@@ -26,14 +39,14 @@ ul {
   li {
     a {
       text-decoration: none;
-      color: black;
+      color: $neutral-black;
       border-bottom: 1px solid transparent;
       padding-bottom: 5px;
       transition: all 0.2s ease-in;
     }
 
     a:hover {
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid $neutral-black;
     }
   }
 }
@@ -84,7 +97,7 @@ ul {
 
   p {
     font-size: 13px;
-    color: rgba(0, 0, 0, 0.77);
+    color: $neutral-black-transparent;
     line-height: 23px;
     letter-spacing: 1px;
   }
@@ -93,7 +106,7 @@ ul {
     width: fit-content;
     margin-top: 35px;
     padding: 3px 3px;
-    color: black;
+    color: $neutral-black;
     text-decoration: none;
     border: none;
   }
@@ -116,8 +129,8 @@ ul {
   text-decoration: none;
   margin-top: 10px;
   width: 45%;
-  background-color: #04e794;
-  color: white;
+  background-color: $green-primary-light;
+  color: $neutral-white;
   border-radius: 0;
   border: none;
   text-transform: uppercase;
@@ -127,13 +140,30 @@ ul {
   transition: background-color 0.15s ease-in;
 }
 
-.btn-primary:hover {
-  background-color: #01a569;
+.btn-modal {
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin-top: 10px;
+  background-color: $green-primary-light;
+  color: $neutral-white;
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+
+  padding: 13px 35px;
+  transition: background-color 0.15s ease-in;
+}
+
+.btn-primary:hover,
+.btn-modal:hover {
+  background-color: $green-primary-dark;
 }
 
 .topnav {
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.6);
+  color: $neutral-black-transparent;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -146,18 +176,18 @@ ul {
     transition: color 0.2s ease-in;
 
     a {
-      color: rgba(0, 0, 0, 0.6);
+      color: $neutral-black-transparent;
       transition: color 0.2s ease-in;
     }
 
     a:hover {
-      color: black;
+      color: $neutral-black;
     }
   }
 
   li:hover {
     cursor: pointer;
-    color: black;
+    color: $neutral-black;
   }
 }
 
@@ -188,7 +218,7 @@ ul {
 }
 
 .active {
-  border-bottom: 1px solid black !important;
+  border-bottom: 1px solid $neutral-black !important;
 }
 
 .main {

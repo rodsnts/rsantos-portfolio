@@ -9,7 +9,7 @@ const TopNav = () => {
   return (
     <ul className="topnav">
       <li>
-        <a href={db.openSource.link}>
+        <a href={db.openSource.link} target="__blank">
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </li>

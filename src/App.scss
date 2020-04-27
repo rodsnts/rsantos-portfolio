@@ -190,3 +190,20 @@ ul {
 .active {
   border-bottom: 1px solid black !important;
 }
+
+.main {
+  animation-name: mainLoading;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
+}
+
+@keyframes mainLoading {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

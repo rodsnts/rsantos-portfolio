@@ -1,21 +1,25 @@
 {
   "profile": {
     "firstName": "Rodrigo",
-    "lastName": "Santos"
+    "lastName": "Santos",
+    "email": "rr.santos1232@gmail.com"
   },
   "about": {
-    "me": "Hi my name is Rodrigo. I'm a Software Developer I've beem designing for about 3 years now. I love working with creative individuals that can bring strong critique as well as laugh at latest meme."
+    "me": "Hi my name is Rodrigo. I'm a Software Developer with a strong sense for aesthetics and interaction. I love working with creative individuals that can bring strong critique as well as laugh at latest meme."
   },
   "experience": {
     "present": "2016 to present PayPay inc.",
     "presentInfo": "Sr. User experience designer, Foundations."
   },
   "projects": {
-    "info": "Establishing design system artifacts and processes to improve design across the rage of product design."
+    "info": "Helping translate web dev tools into my source language (Portuguese)."
   },
   "social": {
     "linkedIn": "https://www.linkedin.com/in/rodsnts/",
     "GitHub": "https://github.com/rodsnts",
     "Twitter": "https://twitter.com/rod_snts"
+  },
+  "openSource": {
+    "link": "https://github.com/rodsnts/rsantos-portfolio"
   }
 }

@@ -16,7 +16,7 @@ const About = () => {
         className="mark"
         style={{ width: "fit-content", marginTop: "20px" }}
       >
-        <a href="rsantos.dev">SUBSCRIBE TO OUR NEWSLETTER</a>
+        <a href="rsantos.dev">YOU CAN SEE MY FULL RESUME HERE</a>
       </span>
 
       <p style={{ marginTop: "45px" }}>EXPERIENCE :</p>

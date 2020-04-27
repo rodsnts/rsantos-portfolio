@@ -10,10 +10,10 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a href="rsantos.dev">Portfolio</a>
+          <a href="rsantos.dev">Blog</a>
         </li>
         <li className="nav-item">
-          <a href="rsantos.dev">Members</a>
+          <a href="rsantos.dev">Portfolio</a>
         </li>
         <li className="nav-item">
           <a href="rsantos.dev">Contact</a>

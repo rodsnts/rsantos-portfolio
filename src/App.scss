@@ -17,21 +17,24 @@ ul {
   text-align: center;
 }
 
-li:not(:last-child) {
-  padding-bottom: 35px;
-}
-
-li {
-  a {
-    text-decoration: none;
-    color: black;
-    border-bottom: 1px solid transparent;
-    padding-bottom: 5px;
-    transition: all 0.2s ease-in;
+.navbar,
+.social {
+  li:not(:last-child) {
+    padding-bottom: 35px;
   }
 
-  a:hover {
-    border-bottom: 1px solid black;
+  li {
+    a {
+      text-decoration: none;
+      color: black;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 5px;
+      transition: all 0.2s ease-in;
+    }
+
+    a:hover {
+      border-bottom: 1px solid black;
+    }
   }
 }
 
@@ -137,10 +140,19 @@ li {
   position: fixed;
   margin: 35px 0;
   padding: 0;
-  transition: color 0.2s ease-in;
 
   li {
     margin: 0 115px;
+    transition: color 0.2s ease-in;
+
+    a {
+      color: rgba(0, 0, 0, 0.6);
+      transition: color 0.2s ease-in;
+    }
+
+    a:hover {
+      color: black;
+    }
   }
 
   li:hover {
@@ -176,5 +188,5 @@ li {
 }
 
 .active {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid black !important;
 }

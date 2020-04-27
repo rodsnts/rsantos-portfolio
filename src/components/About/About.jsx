@@ -19,13 +19,13 @@ const About = () => {
 
       <p>2016 to present PayPay inc.</p>
       <p style={{ color: "#00000077", marginTop: "0" }}>
-        Sr. User experience designer, Foundations
+        Sr. User experience designer, Foundations.
       </p>
 
       <p>PROJECTS :</p>
       <p style={{ textAlign: "right", fontSize: "13px", color: "#00000088" }}>
         Establishing design system artifacts and processes to improve design
-        across the rage of product design
+        across the rage of product design.
       </p>
     </section>
   );

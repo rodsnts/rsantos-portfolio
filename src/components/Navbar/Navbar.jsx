@@ -5,7 +5,9 @@ const Navbar = () => {
     <aside className="navbar">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a href="rsantos.dev">About me</a>
+          <a href="rsantos.dev" className="active">
+            About me
+          </a>
         </li>
         <li className="nav-item">
           <a href="rsantos.dev">Portfolio</a>

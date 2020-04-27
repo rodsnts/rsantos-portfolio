@@ -170,6 +170,15 @@ li {
   );
 }
 
+.mark:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    0deg,
+    rgba(4, 231, 148, 0.8) 45%,
+    rgba(255, 255, 255, 0.7497373949579832) 9%
+  );
+}
+
 .active {
   border-bottom: 1px solid black;
 }

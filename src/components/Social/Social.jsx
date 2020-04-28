@@ -7,17 +7,17 @@ const Social = () => {
     <aside className="social">
       <ul className="social-links">
         <li>
-          <a href={db.social.linkedIn} target="__blank">
+          <a href={db.social.linkedIn} className="hover" target="__blank">
             LinkedIn
           </a>
         </li>
         <li>
-          <a href={db.social.GitHub} target="__blank">
+          <a href={db.social.GitHub} className="hover" target="__blank">
             GitHub
           </a>
         </li>
         <li>
-          <a href={db.social.Twitter} target="__blank">
+          <a href={db.social.Twitter} className="hover" target="__blank">
             Twitter
           </a>
         </li>

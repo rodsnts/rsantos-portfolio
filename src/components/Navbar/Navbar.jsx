@@ -5,18 +5,24 @@ const Navbar = () => {
     <aside className="navbar">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a href="rsantos.dev" className="active">
+          <a href="rsantos.dev" className="active hover">
             About me
           </a>
         </li>
         <li className="nav-item">
-          <a href="rsantos.dev">Blog</a>
+          <a href="rsantos.dev" className="hover">
+            Blog
+          </a>
         </li>
         <li className="nav-item">
-          <a href="rsantos.dev">Portfolio</a>
+          <a href="rsantos.dev" className="hover">
+            Portfolio
+          </a>
         </li>
         <li className="nav-item">
-          <a href="rsantos.dev">Contact</a>
+          <a href="rsantos.dev" className="hover">
+            Contact
+          </a>
         </li>
       </ul>
     </aside>

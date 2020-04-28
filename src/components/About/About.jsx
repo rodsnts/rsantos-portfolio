@@ -1,16 +1,12 @@
 import React from "react";
+import Header from "../Header/Header";
 
 const db = require("../../db.json");
 
 const About = () => {
   return (
     <section className="about">
-      <p
-        style={{ textTransform: "uppercase" }}
-      >{`${db.profile.firstName} ${db.profile.lastName}`}</p>
-
-      <h1>ABOUT ME</h1>
-      <p>{db.about.me}</p>
+      <Header title="About me" />
 
       <span
         className="mark"

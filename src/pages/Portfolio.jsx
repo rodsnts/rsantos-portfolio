@@ -1,22 +1,26 @@
 import React from "react";
 
-import About from "../components/About/About";
-import Gap from "../components/Gap/Gap";
-import MainPicture from "../components/MainPicture/MainPicture";
-import ButtonPrimary from "../components/ButtonPrimary/ButtonPrimary";
+import "./Portfilio.scss";
 
-import Photo from "../img/photo.jpg";
+const project = require("../projects.json");
 
 const Portfolio = () => {
   return (
-    <main className="content">
-      <About />
-
-      <Gap space="10" />
-
-      <div className="container2">
-        <MainPicture imgURL={Photo} />
-        <ButtonPrimary text="email me" />
+    <main>
+      <div className="card">
+        <div className="card-image"></div>
+        <div className="card-body">
+          <h1 className="mark" style={{ width: "fit-content" }}>
+            {project.projects.name}
+          </h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+            blanditiis voluptatem tempora, numquam magni laborum debitis, quae
+            doloremque possimus temporibus ad sapiente nulla cupiditate
+            perspiciatis. Atque modi voluptate mollitia ratione!{" "}
+            <a href="/">Source Files</a> <a href="/">Live Site</a>
+          </p>
+        </div>
       </div>
     </main>
   );

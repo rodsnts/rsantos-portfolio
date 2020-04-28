@@ -10,13 +10,13 @@ import Photo1 from "../img/photo1.jpg";
 const AboutMe = () => {
   return (
     <main className="content">
-      <About />
+      <About title="About me" />
 
       <Gap space="10" />
 
       <div className="container2">
         <MainPicture imgURL={Photo1} />
-        <ButtonPrimary text="hire me" />
+        <ButtonPrimary text="email me" />
       </div>
     </main>
   );

@@ -1,0 +1,21 @@
+@import "../abstracts/variables.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+::selection {
+  background-color: $green-primary-light;
+  color: $neutral-white;
+}

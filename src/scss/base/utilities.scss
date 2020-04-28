@@ -1,0 +1,54 @@
+@import "../abstracts/variables.scss";
+
+.mark {
+  background: linear-gradient(
+    0deg,
+    rgba(4, 231, 148, 0.5) 45%,
+    rgba(255, 255, 255, 0) 9%
+  );
+}
+
+.mark:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    0deg,
+    rgba(4, 231, 148, 0.8) 45%,
+    rgba(255, 255, 255, 0) 9%
+  );
+}
+
+.active {
+  background: linear-gradient(
+    0deg,
+    rgba(4, 231, 148, 0.5) 45%,
+    rgba(255, 255, 255, 0) 9%
+  );
+}
+
+.hover:before {
+  content: "";
+  z-index: -1;
+  display: block;
+  position: absolute;
+  padding: 9px 40px;
+  background: linear-gradient(
+    0deg,
+    rgba(4, 231, 148, 0.5) 45%,
+    rgba(255, 255, 255, 0) 9%
+  );
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.hover:hover::before {
+  content: "";
+  background: linear-gradient(
+    0deg,
+    rgba(4, 231, 148, 0.5) 45%,
+    rgba(255, 255, 255, 0) 9%
+  );
+  transform: scaleX(1);
+}

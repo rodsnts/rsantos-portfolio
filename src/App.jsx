@@ -10,7 +10,7 @@ import TopNav from "./components/TopNav/TopNav";
 import Navbar from "./components/Navbar/Navbar";
 import Social from "./components/Social/Social";
 
-import "./App.scss";
+import "./scss/main.scss";
 
 function App() {
   return (

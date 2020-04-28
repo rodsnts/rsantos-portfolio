@@ -1,0 +1,38 @@
+@import "../abstracts/variables.scss";
+
+.btn-primary {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1rem;
+  width: 45%;
+  background-color: $green-primary-light;
+  color: $neutral-white;
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+
+  padding: 1.3rem 0.5rem;
+
+  transition: background-color 0.15s ease-in;
+}
+
+.btn-modal {
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin-top: 10px;
+  background-color: $green-primary-light;
+  color: $neutral-white;
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+
+  padding: 1.3rem 3.5rem;
+  transition: background-color 0.15s ease-in;
+}
+
+.btn-primary:hover,
+.btn-modal:hover {
+  background-color: $green-primary-dark;
+}

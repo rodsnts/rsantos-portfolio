@@ -1,8 +1,10 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import AboutMe from "./pages/AboutMe";
+import Portfolio from "./pages/Portfolio";
 
-import Modal from "./components/Modal/Modal";
+// import Modal from "./components/Modal/Modal";
 
 import TopNav from "./components/TopNav/TopNav";
 import Navbar from "./components/Navbar/Navbar";
@@ -12,21 +14,26 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className="main">
-      <Modal
-        title="Warning"
-        body="This website is under construction."
-        button="I understand"
-      />
-      <TopNav />
-      <div className="container">
-        <Navbar />
+    <Router>
+      <div>
+        {/* <Modal
+          title="Warning"
+          body="This website is under construction."
+          button="I understand"
+        /> */}
+        <TopNav />
+        <div className="container">
+          <Navbar />
 
-        <AboutMe />
+          <div className="main">
+            <Route path={["/", "about"]} component={AboutMe} />
+            <Route path="/portfolio" component={Portfolio} />
+          </div>
 
-        <Social />
+          <Social />
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

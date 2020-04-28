@@ -5,7 +5,7 @@ const Navbar = () => {
     <aside className="navbar">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a href="about" className="active hover">
+          <a href="/" className="active hover">
             About me
           </a>
         </li>

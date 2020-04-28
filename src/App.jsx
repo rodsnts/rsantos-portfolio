@@ -26,7 +26,7 @@ function App() {
           <Navbar />
 
           <div className="main">
-            <Route path={["/", "about"]} component={AboutMe} />
+            <Route path="/" component={AboutMe} />
             <Route path="/portfolio" component={Portfolio} />
           </div>
 

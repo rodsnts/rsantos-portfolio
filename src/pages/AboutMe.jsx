@@ -5,7 +5,7 @@ import Gap from "../components/Gap/Gap";
 import MainPicture from "../components/MainPicture/MainPicture";
 import ButtonPrimary from "../components/ButtonPrimary/ButtonPrimary";
 
-const AboutMe = () => {
+const Portfolio = () => {
   return (
     <main className="content">
       <About />
@@ -20,4 +20,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Portfolio;

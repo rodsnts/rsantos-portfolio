@@ -1,6 +1,6 @@
 import React from "react";
 
-const MainPicture = () => {
+const MainPicture = (props) => {
   return <section className="picture"></section>;
 };
 

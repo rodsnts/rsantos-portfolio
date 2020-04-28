@@ -26,8 +26,10 @@ function App() {
           <Navbar />
 
           <div className="main">
-            <Route path="/" component={AboutMe} />
-            <Route path="/portfolio" component={Portfolio} />
+            <Switch>
+              <Route path="/" exact component={AboutMe} />
+              <Route path="/portfolio" component={Portfolio} />
+            </Switch>
           </div>
 
           <Social />

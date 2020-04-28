@@ -5,7 +5,9 @@ import Gap from "../components/Gap/Gap";
 import MainPicture from "../components/MainPicture/MainPicture";
 import ButtonPrimary from "../components/ButtonPrimary/ButtonPrimary";
 
-const AboutMe = () => {
+import Photo from "../img/photo.jpg";
+
+const Portfolio = () => {
   return (
     <main className="content">
       <About />
@@ -13,11 +15,11 @@ const AboutMe = () => {
       <Gap space="10" />
 
       <div className="container2">
-        <MainPicture />
+        <MainPicture imgURL={Photo} />
         <ButtonPrimary text="email me" />
       </div>
     </main>
   );
 };
 
-export default AboutMe;
+export default Portfolio;

@@ -30,10 +30,6 @@ const TopNav = () => {
               localStorage.setItem("darkMode", null);
             };
 
-            if (darkMode === "enabled") {
-              enableDark();
-            }
-
             darkMode = localStorage.getItem("darkMode");
             if (darkMode !== "enabled") {
               enableDark();

@@ -14,7 +14,7 @@ const AboutMe = () => {
       <Gap space="10" />
 
       <div className="container2">
-        <img src={Photo1} style={styles.photo} alt="personal" />
+        <img src={Photo1} style={styles.photo} loading="lazy" alt="personal" />
         <ButtonPrimary text="email me" />
       </div>
     </main>

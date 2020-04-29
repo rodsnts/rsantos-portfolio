@@ -50,7 +50,13 @@ class Portfolio extends Component {
                   className="mark"
                   style={{ width: "fit-content" }}
                 >
-                  {post.name}
+                  <a
+                    href={post.url}
+                    style={{ textDecoration: "none", color: "inherit" }}
+                    target="__blank"
+                  >
+                    {post.name}
+                  </a>
                 </h1>
                 <p>{post.info}</p>
               </div>

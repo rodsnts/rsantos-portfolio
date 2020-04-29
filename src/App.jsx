@@ -2,7 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import AboutMe from "./pages/AboutMe";
+import Blog from "./pages/Blog";
 import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
 // import Modal from "./components/Modal/Modal";
 
@@ -15,7 +17,7 @@ import "./scss/main.scss";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="Main">
         {/* <Modal
           title="Warning"
           body="This website is under construction."
@@ -28,7 +30,9 @@ function App() {
           <div className="main">
             <Switch>
               <Route path="/" exact component={AboutMe} />
+              <Route path="/blog" component={Blog} />
               <Route path="/portfolio" component={Portfolio} />
+              <Route path="/contact" component={Contact} />
             </Switch>
           </div>
 

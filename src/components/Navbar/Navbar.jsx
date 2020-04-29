@@ -10,7 +10,7 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a href="/" className="hover">
+          <a href="/blog" className="hover">
             Blog
           </a>
         </li>
@@ -20,7 +20,7 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a href="/" className="hover">
+          <a href="/contact" className="hover">
             Contact
           </a>
         </li>

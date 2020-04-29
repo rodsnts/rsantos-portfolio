@@ -2,7 +2,6 @@
   {
     "id": 0,
     "name": "CRWN Store",
-    "projectImage": "/",
     "info": "E-commerce web app made with React using Redux, Hooks, GraphQL and Stripe API.",
     "url": "https://crwn-live.herokuapp.com/",
     "sourceURL": "https://github.com/rodsnts/CRWN"
@@ -10,7 +9,6 @@
   {
     "id": 1,
     "name": "Smart Brain",
-    "projectImage": "/",
     "info": "Smart Brain is a web app that uses the Clarifai API to locate a face in a picture. Using a React.js front-end and Node.js back-end with Express.js as well as a PostgreSQL database to keep track of how many entries a user has made.",
     "url": "https://smart-brain-bh.herokuapp.com/",
     "sourceURL": "https://github.com/rodsnts/smart-brain"
@@ -18,7 +16,6 @@
   {
     "id": 2,
     "name": "myWeather App",
-    "projectImage": "/",
     "info": "Weather app made with the OpenWeatherMap API and React.",
     "url": "https://myweather-rs.netlify.app/",
     "sourceURL": "https://github.com/rodsnts/myWeather"

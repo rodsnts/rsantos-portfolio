@@ -14,7 +14,34 @@ const TopNav = () => {
         </a>
       </li>
       <li>
-        <FontAwesomeIcon icon={faMoon} />
+        <FontAwesomeIcon
+          icon={faMoon}
+          onClick={() => {
+            let darkMode = localStorage.getItem("dark-mode");
+            const theme = document.querySelector(".Main");
+
+            const enableDark = () => {
+              theme.classList.add("dark-mode");
+              localStorage.setItem("darkMode", "enabled");
+            };
+
+            const disableDark = () => {
+              theme.classList.remove("dark-mode");
+              localStorage.setItem("darkMode", null);
+            };
+
+            if (darkMode === "enabled") {
+              enableDark();
+            }
+
+            darkMode = localStorage.getItem("darkMode");
+            if (darkMode !== "enabled") {
+              enableDark();
+            } else {
+              disableDark();
+            }
+          }}
+        />
       </li>
     </ul>
   );

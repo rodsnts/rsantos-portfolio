@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoon } from "@fortawesome/free-solid-svg-icons";
+// import { faMoon } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const db = require("../../db.json");
@@ -13,7 +13,7 @@ const TopNav = () => {
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </li>
-      <li>
+      {/* <li>
         <FontAwesomeIcon
           icon={faMoon}
           onClick={() => {
@@ -38,7 +38,7 @@ const TopNav = () => {
             }
           }}
         />
-      </li>
+      </li> */}
     </ul>
   );
 };

@@ -14,4 +14,15 @@
     padding: 0 3px;
     margin-bottom: 35px;
   }
+
+  margin-top: 55px;
+
+  .card-bottom {
+    a {
+      color: $neutral-black;
+      width: fit-content;
+      text-decoration: none;
+      margin-left: 25px;
+    }
+  }
 }

@@ -12,7 +12,9 @@ const About = () => {
         className="mark"
         style={{ width: "fit-content", marginTop: "20px" }}
       >
-        <a href="rsantos.dev">YOU CAN SEE MY FULL RESUME HERE</a>
+        <a href="https://pdfhost.io/v/6hOymXPBA_Front_End_Developer.pdf">
+          YOU CAN SEE MY FULL RESUME HERE
+        </a>
       </span>
 
       <p style={{ marginTop: "45px" }}>Education :</p>

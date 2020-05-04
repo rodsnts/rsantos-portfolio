@@ -42,14 +42,10 @@ class Portfolio extends Component {
       <div>
         {this.state.posts.map((post) => (
           <main>
-            <div className="card">
+            <div key={post.id} className="card">
               <div className="card-image"></div>
               <div className="card-body">
-                <h1
-                  key={post.id}
-                  className="mark"
-                  style={{ width: "fit-content" }}
-                >
+                <h1 className="mark" style={{ width: "fit-content" }}>
                   <a
                     href={post.url}
                     style={{ textDecoration: "none", color: "inherit" }}

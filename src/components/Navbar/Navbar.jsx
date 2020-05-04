@@ -9,21 +9,21 @@ const Navbar = () => {
             About me
           </a>
         </li>
-        <li className="nav-item">
+          {/*<li className="nav-item">
           <a href="/blog" className="hover">
             Blog
-          </a>
-        </li>
+            </a>
+        </li>*/}
         <li className="nav-item">
           <a href="portfolio" className="hover">
             Portfolio
           </a>
         </li>
-        <li className="nav-item">
+          {/*<li className="nav-item">
           <a href="/contact" className="hover">
             Contact
           </a>
-        </li>
+        </li>*/}
       </ul>
     </aside>
   );
